@@ -1,0 +1,128 @@
+      *
+      {
+        box-size: flex-box;
+      }
+      body
+      {
+        
+        background-color: #fff;
+      }
+      .container
+      {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        width: fit-content;
+        min-width: 310px;
+        align-items: center;
+        border: 1px solid green;
+        border-radius: 25px;
+        background-color:green;
+        box-shadow: -1px 1px inset white;
+        padding: 10px;
+      }
+      .cards
+      {
+        flex: 50%;
+        margin-top: 20px;
+        
+       
+      }
+      .main
+      {
+        display: flex;
+        flex-direction: row;
+        width: max-content;
+        background-color: white;
+        padding: 20px;
+        border-radius: 25px;
+      }
+      .control
+      {
+        display: flex;
+        padding: 20px;
+      }
+      .dice-face
+      {
+        
+        width: 40px;
+        height: 40px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        display: inline-block;
+        float: left;
+        margin-right: 15px;
+        padding: 5px;
+        margin-bottom: 5px;
+        background-color: #fff;
+        box-shadow: 2px -2px inset gray;
+        text-align: center;
+      }
+      .dot
+      {
+        width: 12px;
+        height: 12px;
+        border: 1px solid #dedede;
+        border-radius: 50%;
+        box-shadow: 1px -1px inset #dedede;
+        display: inline-block;
+        background-color: red;/
+        
+        
+        margin: 2px;
+      }
+      p,.error,.refresh
+      {
+        /*position: relative;*/
+        margin-left: 3px;
+        margin-right: 10px;
+        display: block;
+        color: white;
+        padding: 30px;
+        width: 50%;
+        opacity: 0.8;
+        border-radius: 10px;
+        width: max-content;
+      }
+      .result
+      {
+        background-color: green;
+      }
+      .error
+      {
+        
+        box-shadow: -2px 1px inset #dedede;
+        background-color: red;
+        text-align: right;
+      }
+      .details
+      {
+        background-color: red;
+       
+      }
+      #chartContainer
+      {
+        
+        width: 200px;
+        height: 130px;
+        margin:0;
+        padding:0;
+        padding-top:10px;
+        padding-bottom:30px;
+        margin-left: 10px;
+      }
+      .refresh
+      {
+        margin: 0;
+        padding: 10px;
+        background-color: gray;
+      }
+      a
+      {
+        text-decoration: none;
+        opacity: 0.8;
+      }
+      a:hover
+      {
+        opacity: 1;
+      }
